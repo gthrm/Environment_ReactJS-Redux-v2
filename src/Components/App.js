@@ -29,7 +29,7 @@ class App extends React.Component {
           >
             Learn React
                   </a>
-          <input type="text" size="40" value={this.props.name} onChange={(event) => { this.props.changeName(event.target.value) }} />
+          <input className="loading-button" type="text" size="40" value={this.props.name} onChange={(event) => { this.props.changeName(event.target.value) }} />
         </header>
       </div>
     )
